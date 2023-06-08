@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E062A3E12A30B714007DC19F /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062A3E02A30B714007DC19F /* ContactCell.swift */; };
+		E062A3E42A30DEAC007DC19F /* FetchContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062A3E32A30DEAC007DC19F /* FetchContacts.swift */; };
+		E062A3E62A30E02C007DC19F /* MostViewedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062A3E52A30E02C007DC19F /* MostViewedController.swift */; };
+		E062A3E82A30E095007DC19F /* MostViewedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062A3E72A30E095007DC19F /* MostViewedViewModel.swift */; };
+		E062A3EA2A30E4D0007DC19F /* SelectedContactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062A3E92A30E4CF007DC19F /* SelectedContactsCell.swift */; };
+		E062A3EC2A30E4FD007DC19F /* SelectableContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062A3EB2A30E4FD007DC19F /* SelectableContactCell.swift */; };
+		E062A3EF2A30FEC9007DC19F /* SelectedImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062A3EE2A30FEC9007DC19F /* SelectedImageCollectionViewCell.swift */; };
 		E0E66D712A3090FE00EEC38C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E66D702A3090FE00EEC38C /* AppDelegate.swift */; };
 		E0E66D732A3090FE00EEC38C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E66D722A3090FE00EEC38C /* SceneDelegate.swift */; };
-		E0E66D752A3090FE00EEC38C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E66D742A3090FE00EEC38C /* ViewController.swift */; };
 		E0E66D782A3090FE00EEC38C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E66D762A3090FE00EEC38C /* Main.storyboard */; };
 		E0E66D7A2A3090FF00EEC38C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E66D792A3090FF00EEC38C /* Assets.xcassets */; };
 		E0E66D7D2A3090FF00EEC38C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E66D7B2A3090FF00EEC38C /* LaunchScreen.storyboard */; };
+		E0E66D8A2A30979F00EEC38C /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E66D892A30979F00EEC38C /* Contact.swift */; };
+		E0E66D8E2A3098BF00EEC38C /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E66D8D2A3098BF00EEC38C /* SearchController.swift */; };
+		E0E66D902A3098D500EEC38C /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E66D8F2A3098D500EEC38C /* SearchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E062A3E02A30B714007DC19F /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		E062A3E32A30DEAC007DC19F /* FetchContacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchContacts.swift; sourceTree = "<group>"; };
+		E062A3E52A30E02C007DC19F /* MostViewedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostViewedController.swift; sourceTree = "<group>"; };
+		E062A3E72A30E095007DC19F /* MostViewedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostViewedViewModel.swift; sourceTree = "<group>"; };
+		E062A3E92A30E4CF007DC19F /* SelectedContactsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedContactsCell.swift; sourceTree = "<group>"; };
+		E062A3EB2A30E4FD007DC19F /* SelectableContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableContactCell.swift; sourceTree = "<group>"; };
+		E062A3EE2A30FEC9007DC19F /* SelectedImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		E0E66D6D2A3090FE00EEC38C /* InformTehnikaTZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InformTehnikaTZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E66D702A3090FE00EEC38C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0E66D722A3090FE00EEC38C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E0E66D742A3090FE00EEC38C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E0E66D772A3090FE00EEC38C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0E66D792A3090FF00EEC38C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0E66D7C2A3090FF00EEC38C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0E66D7E2A3090FF00EEC38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E66D892A30979F00EEC38C /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		E0E66D8D2A3098BF00EEC38C /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		E0E66D8F2A3098D500EEC38C /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E062A3E22A30DE8F007DC19F /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				E062A3E32A30DEAC007DC19F /* FetchContacts.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
 		E0E66D642A3090FE00EEC38C = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +82,64 @@
 		E0E66D6F2A3090FE00EEC38C /* InformTehnikaTZ */ = {
 			isa = PBXGroup;
 			children = (
-				E0E66D702A3090FE00EEC38C /* AppDelegate.swift */,
-				E0E66D722A3090FE00EEC38C /* SceneDelegate.swift */,
-				E0E66D742A3090FE00EEC38C /* ViewController.swift */,
-				E0E66D762A3090FE00EEC38C /* Main.storyboard */,
-				E0E66D792A3090FF00EEC38C /* Assets.xcassets */,
-				E0E66D7B2A3090FF00EEC38C /* LaunchScreen.storyboard */,
-				E0E66D7E2A3090FF00EEC38C /* Info.plist */,
+				E062A3E22A30DE8F007DC19F /* Request */,
+				E0E66D882A30977B00EEC38C /* Models */,
+				E0E66D852A30949F00EEC38C /* Views */,
+				E0E66D842A30945500EEC38C /* Source */,
 			);
 			path = InformTehnikaTZ;
+			sourceTree = "<group>";
+		};
+		E0E66D842A30945500EEC38C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E0E66D7B2A3090FF00EEC38C /* LaunchScreen.storyboard */,
+				E0E66D702A3090FE00EEC38C /* AppDelegate.swift */,
+				E0E66D722A3090FE00EEC38C /* SceneDelegate.swift */,
+				E0E66D792A3090FF00EEC38C /* Assets.xcassets */,
+				E0E66D7E2A3090FF00EEC38C /* Info.plist */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E0E66D852A30949F00EEC38C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E0E66D762A3090FE00EEC38C /* Main.storyboard */,
+				E0E66D872A3094D500EEC38C /* MostViewed */,
+				E0E66D862A3094B600EEC38C /* Search */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E0E66D862A3094B600EEC38C /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				E0E66D8D2A3098BF00EEC38C /* SearchController.swift */,
+				E0E66D8F2A3098D500EEC38C /* SearchViewModel.swift */,
+				E062A3E02A30B714007DC19F /* ContactCell.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		E0E66D872A3094D500EEC38C /* MostViewed */ = {
+			isa = PBXGroup;
+			children = (
+				E062A3E52A30E02C007DC19F /* MostViewedController.swift */,
+				E062A3E72A30E095007DC19F /* MostViewedViewModel.swift */,
+				E062A3EB2A30E4FD007DC19F /* SelectableContactCell.swift */,
+				E062A3E92A30E4CF007DC19F /* SelectedContactsCell.swift */,
+				E062A3EE2A30FEC9007DC19F /* SelectedImageCollectionViewCell.swift */,
+			);
+			path = MostViewed;
+			sourceTree = "<group>";
+		};
+		E0E66D882A30977B00EEC38C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E0E66D892A30979F00EEC38C /* Contact.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +213,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0E66D752A3090FE00EEC38C /* ViewController.swift in Sources */,
+				E0E66D902A3098D500EEC38C /* SearchViewModel.swift in Sources */,
+				E062A3E82A30E095007DC19F /* MostViewedViewModel.swift in Sources */,
+				E062A3EC2A30E4FD007DC19F /* SelectableContactCell.swift in Sources */,
+				E0E66D8A2A30979F00EEC38C /* Contact.swift in Sources */,
+				E0E66D8E2A3098BF00EEC38C /* SearchController.swift in Sources */,
+				E062A3E62A30E02C007DC19F /* MostViewedController.swift in Sources */,
+				E062A3EA2A30E4D0007DC19F /* SelectedContactsCell.swift in Sources */,
 				E0E66D712A3090FE00EEC38C /* AppDelegate.swift in Sources */,
+				E062A3E12A30B714007DC19F /* ContactCell.swift in Sources */,
 				E0E66D732A3090FE00EEC38C /* SceneDelegate.swift in Sources */,
+				E062A3E42A30DEAC007DC19F /* FetchContacts.swift in Sources */,
+				E062A3EF2A30FEC9007DC19F /* SelectedImageCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +373,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2NJA6A6R83;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = InformTehnikaTZ/Info.plist;
+				INFOPLIST_FILE = InformTehnikaTZ/Source/Info.plist;
+				INFOPLIST_KEY_NSContactsUsageDescription = "Give me contacts plz";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +402,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2NJA6A6R83;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = InformTehnikaTZ/Info.plist;
+				INFOPLIST_FILE = InformTehnikaTZ/Source/Info.plist;
+				INFOPLIST_KEY_NSContactsUsageDescription = "Give me contacts plz";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

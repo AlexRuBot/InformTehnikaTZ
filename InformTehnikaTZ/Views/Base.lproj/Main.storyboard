@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DAO-dM-IyY">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Most Viewed Controller-->
+        <scene sceneID="oCG-YV-Kbr">
+            <objects>
+                <viewController id="YXN-q9-JJ8" customClass="MostViewedController" customModule="InformTehnikaTZ" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bAP-tJ-e4n">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="L5M-nm-MNW">
+                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7z8-ME-i1Y"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="L5M-nm-MNW" firstAttribute="top" secondItem="7z8-ME-i1Y" secondAttribute="top" id="FUU-of-ZbM"/>
+                            <constraint firstItem="L5M-nm-MNW" firstAttribute="leading" secondItem="7z8-ME-i1Y" secondAttribute="leading" id="Vbw-w0-JeC"/>
+                            <constraint firstItem="7z8-ME-i1Y" firstAttribute="trailing" secondItem="L5M-nm-MNW" secondAttribute="trailing" id="WCq-7j-vzi"/>
+                            <constraint firstItem="7z8-ME-i1Y" firstAttribute="bottom" secondItem="L5M-nm-MNW" secondAttribute="bottom" id="j4z-UG-eyw"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" selectedImage="list.bullet.rectangle.fill" catalog="system" systemItem="mostViewed" id="XCR-6V-OuB"/>
+                    <connections>
+                        <outlet property="tableView" destination="L5M-nm-MNW" id="xt7-4U-ik7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gc6-0N-7pl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1153" y="348"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="eRd-jp-4ga">
+            <objects>
+                <tabBarController id="DAO-dM-IyY" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bvG-r0-wRI">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="jcm-11-bSz" kind="relationship" relationship="viewControllers" id="XEL-Nm-5U9"/>
+                        <segue destination="YXN-q9-JJ8" kind="relationship" relationship="viewControllers" id="K8e-E4-ctZ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="llg-Td-Ap3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="248" y="43"/>
+        </scene>
+        <!--Search Controller-->
+        <scene sceneID="cBK-PU-sCS">
+            <objects>
+                <viewController id="jcm-11-bSz" customClass="SearchController" customModule="InformTehnikaTZ" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aFU-UX-cCT">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="akV-sf-MNo">
+                                <rect key="frame" x="0.0" y="59" width="393" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="jcm-11-bSz" id="wuC-sO-jeH"/>
+                                </connections>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="uu7-3S-rNn">
+                                <rect key="frame" x="0.0" y="115" width="393" height="654"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8Jd-yJ-yZs"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8Jd-yJ-yZs" firstAttribute="trailing" secondItem="uu7-3S-rNn" secondAttribute="trailing" id="6dM-aO-IiJ"/>
+                            <constraint firstItem="akV-sf-MNo" firstAttribute="trailing" secondItem="8Jd-yJ-yZs" secondAttribute="trailing" id="9me-vd-Opb"/>
+                            <constraint firstItem="uu7-3S-rNn" firstAttribute="leading" secondItem="8Jd-yJ-yZs" secondAttribute="leading" id="Gz2-43-UEn"/>
+                            <constraint firstItem="akV-sf-MNo" firstAttribute="top" secondItem="8Jd-yJ-yZs" secondAttribute="top" id="HOm-LI-SjN"/>
+                            <constraint firstItem="8Jd-yJ-yZs" firstAttribute="bottom" secondItem="uu7-3S-rNn" secondAttribute="bottom" id="Tjr-AG-EGg"/>
+                            <constraint firstItem="akV-sf-MNo" firstAttribute="leading" secondItem="8Jd-yJ-yZs" secondAttribute="leading" id="ZsK-Eq-8bs"/>
+                            <constraint firstItem="uu7-3S-rNn" firstAttribute="top" secondItem="akV-sf-MNo" secondAttribute="bottom" id="sHN-uy-Fhi"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" selectedImage="magnifyingglass" catalog="system" systemItem="search" id="JWR-Jd-095"/>
+                    <connections>
+                        <outlet property="searchBar" destination="akV-sf-MNo" id="Bso-xY-TSD"/>
+                        <outlet property="tableView" destination="uu7-3S-rNn" id="kyz-NS-kAs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2vZ-3Z-Qao" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1151" y="-309"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="list.bullet.rectangle.fill" catalog="system" width="128" height="93"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
